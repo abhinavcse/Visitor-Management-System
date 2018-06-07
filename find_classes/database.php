@@ -11,7 +11,6 @@ $this->open_db_connection();
 public function open_db_connection()
 		{
 define('DB_HOST','localhost');
-//define('DB_USER','vidyaedu_wp7');define('DB_PASS','J&(b*EwjL9WMhQU(Dw*67.[7');define('DB_NAME','vidyaedu_wp7');
 define('DB_USER','root');define('DB_PASS','');define('DB_NAME','vms');
 $this->connection=new MySQLi(DB_HOST,DB_USER,DB_PASS,DB_NAME);	
 if($this->connection->errno)
